@@ -83,11 +83,22 @@ color:"white",
 border:"none",
 borderRadius:18
 }}
+<div
+style={{
+marginTop:50
+}}
+>
+
+<h2>
+Total
+</h2>
+
+<h1>
+R$ 89,80
+</h1>
+
 <a
 href="/checkout"
-style={{
-textDecoration:"none"
-}}
 >
 
 <button
@@ -96,7 +107,7 @@ padding:20,
 background:"#7c5cff",
 color:"white",
 border:"none",
-borderRadius:18
+borderRadius:20
 }}
 >
 
@@ -105,3 +116,5 @@ Finalizar Compra
 </button>
 
 </a>
+
+</div>
