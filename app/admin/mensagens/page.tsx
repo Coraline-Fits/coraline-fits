@@ -72,12 +72,17 @@ color:"white",
 borderRadius:16
 }}
 
+<a
+href="/admin/entrega"
 >
+
+<button>
 
 Salvar
 
 </button>
 
+</a>
 </div>
 
 <div
