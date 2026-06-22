@@ -137,6 +137,23 @@ borderRadius:18
 
 Pagamento Aprovado
 
+<a
+href="/admin/mensagens"
+>
+
+<button
+style={{
+width:"100%",
+padding:20,
+background:"#7c5cff",
+color:"white",
+border:"none",
+borderRadius:18
+}}
+>
+
+Pagar
+
 </button>
 
-</a>}
+</a>
