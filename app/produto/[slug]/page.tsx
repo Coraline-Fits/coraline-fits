@@ -1,20 +1,17 @@
-import { products } from "../../data/products"
+import { products } from "@/app/data/products"
 
-export default async function Produto({
+export default function Produto({
 params,
 }:{
-params:Promise<{
+params:{
 slug:string
-}>
+}
 }){
-
-const { slug } =
-await params
 
 const produto =
 products.find(
 (p)=>
-p.slug===slug
+p.slug===params.slug
 )
 
 if(!produto){
@@ -23,7 +20,9 @@ return(
 
 <div
 style={{
-padding:80,
+padding:60,
+background:"#050816",
+minHeight:"100vh",
 color:"white"
 }}
 >
@@ -40,94 +39,56 @@ return(
 
 <div
 style={{
-background:
-"#050816",
-minHeight:
-"100vh",
-
-color:
-"white",
-
-padding:
-50
+background:"#050816",
+minHeight:"100vh",
+color:"white",
+padding:60
 }}
 >
 
 <div
 style={{
 display:"grid",
-
 gridTemplateColumns:
 "1fr 1fr",
-
-gap:
-40
+gap:40
 }}
 >
 
 <img
-src={
-produto.imagem
-}
-
+src={produto.imagem}
 style={{
-width:
-"100%",
-
-borderRadius:
-30
+width:"100%",
+borderRadius:30
 }}
 />
 
 <div>
 
 <h1>
-{
-produto.nome
-}
+{produto.nome}
 </h1>
 
 <h2>
-
-R$
-
-{
-produto.preco
-}
-
+R$ {produto.preco}
 </h2>
 
 <p>
-
 Categoria:
-
-{
-produto.categoria
-}
-
+{" "}
+{produto.categoria}
 </p>
 
 <button
 style={{
-padding:
-20,
-
-background:
-"#8b5cff",
-
-color:
-"white",
-
-border:
-"none",
-
-borderRadius:
-16
+padding:18,
+background:"#8b5cff",
+color:"white",
+border:"none",
+borderRadius:18
 }}
 >
-
-Adicionar ao carrinho
-
+Comprar Agora
 </button>
 
 </div>
