@@ -117,18 +117,26 @@ color:"white",
 border:"none",
 borderRadius:18
 }}
+<a
+href="/admin/mensagens"
+style={{
+textDecoration:"none"
+}}
 >
 
-Pagar
+<button
+style={{
+width:"100%",
+padding:20,
+background:"#7c5cff",
+color:"white",
+border:"none",
+borderRadius:18
+}}
+>
+
+Pagamento Aprovado
 
 </button>
 
-</div>
-
-</div>
-
-</div>
-
-)
-
-}
+</a>}
