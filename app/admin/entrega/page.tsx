@@ -86,11 +86,17 @@ color:"white",
 borderRadius:16
 }}
 
+<a
+href="/admin/configuracoes"
 >
+
+<button>
 
 Salvar
 
 </button>
+
+</a>
 
 </div>
 
