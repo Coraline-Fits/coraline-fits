@@ -76,7 +76,17 @@ borderRadius:16
 href="/admin/entrega"
 >
 
-<button>
+<a href="/admin/entrega">
+
+<button
+style={{
+padding:"18px 40px",
+background:"#7c5cff",
+border:"none",
+color:"white",
+borderRadius:16
+}}
+>
 
 Salvar
 
