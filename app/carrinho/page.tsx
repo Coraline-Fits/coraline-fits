@@ -83,16 +83,25 @@ color:"white",
 border:"none",
 borderRadius:18
 }}
+<a
+href="/checkout"
+style={{
+textDecoration:"none"
+}}
+>
+
+<button
+style={{
+padding:20,
+background:"#7c5cff",
+color:"white",
+border:"none",
+borderRadius:18
+}}
 >
 
 Finalizar Compra
 
 </button>
 
-</div>
-
-</div>
-
-)
-
-}
+</a>
