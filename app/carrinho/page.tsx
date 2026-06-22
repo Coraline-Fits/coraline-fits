@@ -1,32 +1,5 @@
 export default function Carrinho(){
 
-const itens=[
-
-{
-nome:
-"Vestido Coraline Azul",
-
-preco:
-39.90
-},
-
-{
-nome:
-"Conjunto Dark Doll",
-
-preco:
-49.90
-}
-
-]
-
-const total=
-itens.reduce(
-(a,b)=>
-a+b.preco,
-0
-)
-
 return(
 
 <div
@@ -39,78 +12,77 @@ color:"white"
 >
 
 <h1>
-Seu Carrinho
+🛒 Carrinho
 </h1>
 
 <div
 style={{
+marginTop:30,
 display:"grid",
-gap:20,
-marginTop:30
+gap:20
 }}
 >
 
-{
-
-itens.map(
-(item)=>
-
 <div
-key={item.nome}
-
 style={{
 background:"#111931",
 padding:24,
-borderRadius:20
+borderRadius:24
 }}
 >
 
 <h2>
-{item.nome}
+Vestido Coraline Azul
 </h2>
 
 <p>
-R$ {item.preco}
+R$ 39,90
 </p>
 
 </div>
 
-)
+<div
+style={{
+background:"#111931",
+padding:24,
+borderRadius:24
+}}
+>
 
-}
+<h2>
+Conjunto Dark Doll
+</h2>
+
+<p>
+R$ 49,90
+</p>
+
+</div>
 
 </div>
 
 <div
 style={{
-marginTop:50
+marginTop:40
 }}
 >
 
 <h2>
-
 Total
-
 </h2>
 
 <h1>
-
-R$ {total}
-
+R$ 89,80
 </h1>
 
 <button
-
 style={{
 padding:20,
-width:400,
-maxWidth:"100%",
 background:"#7c5cff",
+color:"white",
 border:"none",
-borderRadius:20,
-color:"white"
+borderRadius:18
 }}
-
 >
 
 Finalizar Compra
