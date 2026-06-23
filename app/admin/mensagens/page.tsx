@@ -25,65 +25,40 @@ borderRadius:30
 >
 
 <input
-
 placeholder="Slug do Produto"
-
 style={{
 width:"100%",
 padding:18,
 marginBottom:20
 }}
-
 />
 
 <input
-
 placeholder="Título"
-
 style={{
 width:"100%",
 padding:18,
 marginBottom:20
 }}
-
 />
 
 <textarea
-
-placeholder=
-"Mensagem enviada após pagamento aprovado"
-
+placeholder="Mensagem"
 style={{
 width:"100%",
-height:240,
-padding:20
+height:220
 }}
-
 />
-
-<button
-
-style={{
-marginTop:20,
-padding:"18px 40px",
-background:"#7c5cff",
-border:"none",
-color:"white",
-borderRadius:16
-}}
-
-<a
-href="/admin/entrega"
->
 
 <a href="/admin/entrega">
 
 <button
 style={{
+marginTop:20,
 padding:"18px 40px",
 background:"#7c5cff",
-border:"none",
 color:"white",
+border:"none",
 borderRadius:16
 }}
 >
@@ -93,36 +68,6 @@ Salvar
 </button>
 
 </a>
-</div>
-
-<div
-style={{
-marginTop:30,
-background:"#111931",
-padding:20,
-borderRadius:20
-}}
->
-
-<h2>
-Exemplo
-</h2>
-
-<p>
-
-Produto:
-vestido-coraline-azul
-
-</p>
-
-<p>
-
-Obrigada pela compra 💙
-
-Seu item:
-LINK
-
-</p>
 
 </div>
 
