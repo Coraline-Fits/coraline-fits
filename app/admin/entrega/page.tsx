@@ -90,11 +90,23 @@ borderRadius:16
 href="/admin/configuracoes"
 >
 
-<button>
+<a href="/admin/configuracoes">
+
+<button
+style={{
+padding:"18px 40px",
+background:"#7c5cff",
+border:"none",
+color:"white",
+borderRadius:16
+}}
+>
 
 Salvar
 
 </button>
+
+</a>
 
 </a>
 
